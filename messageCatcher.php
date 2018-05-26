@@ -1,0 +1,3 @@
+/* message catcher
+
+  catches messages from users and logs them to the proper table in the database */
