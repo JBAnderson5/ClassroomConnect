@@ -39,7 +39,7 @@
               <a class="nav-link" href="BUSN70.html">Classes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Groups</a>
+              <a class="nav-link" href="group4381.html">Groups</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">DMs</a>
@@ -95,6 +95,25 @@
         <h6>Post to your group</h6>
           <label></label>
           <input name="message" id="message" type="text" placeholder="Message" required><br><br>
+          <button name="submit" id="submit" class="btn btn-success" type="submit">Post</button>
+
+      </form>
+
+      <form class="createGroup borderbox" name="createGroup" method="post" action="createGroup.php">
+        <h4>Create a plan to meet up</h4>
+          <label>Date</label><br>
+          <input name="name" id="name" type="text" placeholder="6/2/18" required><br><br>
+          <label>Time</label><br>
+          <input name="description" id="description" type="text" placeholder="1:30" required><br><br>
+          <label>Meeting goal</label><br>
+          <input name="description" id="description" type="text" placeholder="Finish assignment 5" required><br><br>
+          <label>Location</label><br>
+          <input name="size" id="size" type="text" placeholder="Skylounge" required><br><br>
+          <label>Would you like to automatically sign up for a service?</label><br>
+          <input name="memberList" id="memberList" type="radio" placeholder="list members">Library Room
+          <input name="memberList" id="memberList" type="radio" placeholder="list members">Drahman center
+          <input name="memberList" id="memberList" type="radio" placeholder="list members">The Hub  <br>
+
           <button name="submit" id="submit" class="btn btn-success" type="submit">Post</button>
 
       </form>

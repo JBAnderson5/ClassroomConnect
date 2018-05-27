@@ -26,6 +26,10 @@ footer{
 
 }
 
+.borderbox{
+  border-style: solid;
+}
+
 /*used to style other peoples group or individual messages*/
 .otherMessage{
   text-align: left;

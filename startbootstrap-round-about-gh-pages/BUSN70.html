@@ -21,10 +21,9 @@
   <body>
 
     <!-- Navigation -->
-    <!--TODO: make this bar consistent with homepage bar at end-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">Working Title</a>
+        <a class="navbar-brand" href="#">Aphorum</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,13 +35,16 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Classes</a>
+              <a class="nav-link" href="BUSN70.html">Classes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Groups</a>
+              <a class="nav-link" href="group4381.html">Groups</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">DMs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Settings</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -73,7 +75,7 @@
         <h5 class="row">JB Anderson</h5>
         <h3 class="row">Let's make a group</h3>
         <p class="row"> I am looking for people who want to do a group project on insertion sort</p>
-        <p class="row timestamp"> asked 28 seconds ago</p>
+        <p class="row timestamp"> asked 30 minutes ago</p>
 
         <h5 class="row">Comments</h5>
         <div class="comments">
@@ -81,7 +83,7 @@
           <div>
             <h6 class="row">Ross </h6>
             <p class="row">I will totally join your group</p>
-            <p class="row timestamp">posted 10 seconds ago</p>
+            <p class="row timestamp">posted 5 minutes ago</p>
           </div>
 
           <div>
@@ -89,10 +91,48 @@
             <p class="row">No way you're a terrible group mate</p>
             <p class="row timestamp">posted 3 seconds ago</p>
           </div>
+
+          <form class="forumPost" name="Comment" method="post" action="Comment.php">
+
+              <label>Comment</label>
+              <input name="message" id="message" type="text" placeholder="add a comment" required><br><br>
+              <button name="submit" id="submit" class="btn btn-success" type="submit">Submit</button>
+
+          </form>
         </div>
       </div>
 
-      <form class="forumPost" name="forumPost" method="post" action="forumPost.php">
+      <div class="my-4">
+        <h5 class="row">Will</h5>
+        <h3 class="row">Help on assignment 5</h3>
+        <p class="row">I don't get how to do problem 10. Can someone help me?</p>
+        <p class="row timestamp"> asked 8 minutes ago</p>
+
+        <h5 class="row">Comments</h5>
+        <div class="comments">
+
+          <div>
+            <h6 class="row">Grace</h6>
+            <p class="row">You just need to do the thing and then get the problem right.</p>
+            <p class="row timestamp">posted 10 seconds ago</p>
+          </div>
+
+          <div>
+            <h6 class="row">Will</h6>
+            <p class="row">That just confused me more</p>
+            <p class="row timestamp">posted 3 seconds ago</p>
+          </div>
+          <form class="forumPost" name="Comment" method="post" action="Comment.php">
+
+              <label>Comment</label>
+              <input name="message" id="message" type="text" placeholder="add a comment" required><br><br>
+              <button name="submit" id="submit" class="btn btn-success" type="submit">Submit</button>
+
+          </form>
+        </div>
+      </div>
+
+      <form class="forumPost borderbox" name="forumPost" method="post" action="forumPost.php">
         <h4>Post to the class feed</h4>
           <label>Subject</label><br>
           <input name="subject" id="subject" type="text" placeholder="Help with problem 5" required><br><br>
@@ -102,7 +142,7 @@
 
       </form>
       <br>
-      <form class="createGroup" name="createGroup" method="post" action="createGroup.php">
+      <form class="createGroup borderbox" name="createGroup" method="post" action="createGroup.php">
         <h4>Create a new group and let other students in this class join</h4>
           <label>Group name</label><br>
           <input name="name" id="name" type="text" placeholder="Homework help" required><br><br>
