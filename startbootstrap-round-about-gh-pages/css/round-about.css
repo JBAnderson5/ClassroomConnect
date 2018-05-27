@@ -8,6 +8,32 @@ body {
   padding-top: 54px;
 }
 
+.comments{
+  text-indent:20px;
+}
+
+.timestamp{
+  font-size: 50%;
+}
+
+footer{
+  clear:both;
+}
+
+.classLinks{
+  float:left;
+  width:10%;
+  margin: 0;
+  padding:0;
+
+}
+
+.classFeed{
+  float:right;
+}
+
+
+
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
