@@ -21,12 +21,22 @@ footer{
 }
 
 .classLinks{
-  float:left;
-  width:100px;
-  margin: 0;
-  padding:0;
+  position:absolute;
+  left:10px;
 
 }
+
+/*used to style other peoples group or individual messages*/
+.otherMessage{
+  text-align: left;
+
+}
+
+/*used to style your group or individual messages*/
+.myMessage{
+  text-align: right;
+}
+
 
 .classFeed{
   float:right;
