@@ -63,6 +63,7 @@
           <a class="nav-link" href="BUSN70.html">Feed</a>
           <a class="nav-link" href="BUSN70Chat.html">Chat</a>
           <a class="nav-link" href="BUSN70Resources.html">Resources</a>
+          <a class="nav-link" href="BUSN70Roster.html">Students</a>
         </div>
 
         <div class="classFeed">
@@ -97,6 +98,22 @@
           <input name="subject" id="subject" type="text" placeholder="Help with problem 5" required><br><br>
           <label>message body</label><br>
           <input name="message" id="message" type="text" placeholder="I don't get how you do this thing" required><br><br>
+          <button name="submit" id="submit" class="btn btn-success" type="submit">Post</button>
+
+      </form>
+      <br>
+      <form class="createGroup" name="createGroup" method="post" action="createGroup.php">
+        <h4>Create a new group and let other students in this class join</h4>
+          <label>Group name</label><br>
+          <input name="name" id="name" type="text" placeholder="Homework help" required><br><br>
+          <label>Group purpose</label><br>
+          <input name="description" id="description" type="text" placeholder="make doing homework more social and fun" required><br><br>
+          <label>maximum members</label><br>
+          <input name="size" id="size" type="text" placeholder="(optional)" required><br><br>
+          <label>add members</label><br>
+          <input name="memberList" id="memberList" type="text" placeholder="list members" required><br><br>
+
+
           <button name="submit" id="submit" class="btn btn-success" type="submit">Post</button>
 
       </form>
