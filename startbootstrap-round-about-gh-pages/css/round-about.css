@@ -30,6 +30,10 @@ footer{
   border-style: solid;
 }
 
+.recolor{
+  color: 	#DC143C;
+}
+
 /*used to style other peoples group or individual messages*/
 .otherMessage{
   text-align: left;
